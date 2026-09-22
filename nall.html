@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website zaenal</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f2f2f2;
+            color: #222;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: white;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>SELAMAT DATANG HATERS</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h1>Hi, saya jekk 👋</h1>
+        <p>dari kelas XPPLG</p>
+        <button onclick="sapa()">Klik Saya</button>
+    </div>
+
+    <section id="tentang">
+        <h2>data pribadi saya</h2>
+
+        <div class="card">
+            <p>
+              saya zaenal dari kelas xpplg, saya dari desa maniis
+              hobi saya maim ml, saya suka ama kaka kelas
+            </p>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+
+        <div class="card">
+            <p>Email: nallisback@gmail.com</p>
+            <p>Instagram: @zaenal1_2
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 wellcome to nall is back</p>
+    </footer>
+
+    <script>
+        function sapa() {
+            alert("Halo! Selamat datang di website saya 👋");
+        }
+    </script>
+
+</body>
+</html>
